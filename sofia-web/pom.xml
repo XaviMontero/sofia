@@ -33,21 +33,7 @@
             <version>2.7.0</version>
             <scope>compile</scope>
         </dependency>
-        <dependency>
-            <groupId>com.xam.ec</groupId>
-            <artifactId>prueba-dto</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>com.xam.ec</groupId>
-            <artifactId>prueba-persistence</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>com.xam.ec</groupId>
-            <artifactId>prueba-bo</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
+
 
     </dependencies>
     <build>
