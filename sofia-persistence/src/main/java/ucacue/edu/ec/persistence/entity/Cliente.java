@@ -5,8 +5,8 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class Genero {
-    private  int idgenero;
-    private  String descripcion;
+public class Cliente {
+    private  Persona persona ;
+    private  int calificacion;
 
 }
