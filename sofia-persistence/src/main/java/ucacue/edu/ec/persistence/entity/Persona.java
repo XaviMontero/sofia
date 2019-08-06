@@ -1,9 +1,11 @@
 package ucacue.edu.ec.persistence.entity;
 
+
 import lombok.Getter;
 import lombok.Setter;
 
 import java.util.Date;
+
 @Getter
 @Setter
 public class Persona {
@@ -13,7 +15,7 @@ public class Persona {
     private  Genero genero;
     private  String nombre;
     private  String apellido;
-    private Date fechanace;
+    private  Date fechanace;
     private  String telefonouno;
     private  String telefonodos;
     private  String direccion;
