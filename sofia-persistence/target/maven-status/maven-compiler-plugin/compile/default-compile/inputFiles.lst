@@ -1,1 +1,12 @@
-/media/xavi/archivos-xavi/xavi/git/sofia/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/Persona.java
+/media/xavi/archivos-xavi/xavi/git/sofia/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/entity/EstadoCivil.java
+/media/xavi/archivos-xavi/xavi/git/sofia/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/repository/GeneroRepository.java
+/media/xavi/archivos-xavi/xavi/git/sofia/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/repository/PleopleRepository.java
+/media/xavi/archivos-xavi/xavi/git/sofia/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/entity/Cuenta.java
+/media/xavi/archivos-xavi/xavi/git/sofia/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/repository/EstadoCivilRepository.java
+/media/xavi/archivos-xavi/xavi/git/sofia/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/entity/TipoCuenta.java
+/media/xavi/archivos-xavi/xavi/git/sofia/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/entity/Genero.java
+/media/xavi/archivos-xavi/xavi/git/sofia/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/entity/Persona.java
+/media/xavi/archivos-xavi/xavi/git/sofia/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/repository/PersonaRepository.java
+/media/xavi/archivos-xavi/xavi/git/sofia/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/repository/BaseRepository.java
+/media/xavi/archivos-xavi/xavi/git/sofia/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/entity/Cliente.java
+/media/xavi/archivos-xavi/xavi/git/sofia/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/repository/TipoCuentaRepository.java

@@ -12,8 +12,10 @@
 
         <module>sofia-web</module>
         <module>sofia-persistence</module>
+        <module>sofia-dto</module>
+        <module>sofia-service</module>
+        <module>sofia-common</module>
     </modules>
-
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>

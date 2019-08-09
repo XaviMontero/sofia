@@ -1,3 +1,5 @@
+package ucacue.edu.ec;
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
@@ -15,5 +17,6 @@ public class SofiaApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SofiaApplication.class, args);
 	}
+
 
 }

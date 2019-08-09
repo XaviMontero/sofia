@@ -1,22 +1,66 @@
 package ucacue.edu.ec.persistence.entity;
 
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import lombok.Getter;
 import lombok.Setter;
 
-import java.util.Date;
+import javax.persistence.*;
+import java.io.Serializable;
+import java.util.*;
 
 @Getter
 @Setter
-public class Persona {
-    private  String cedula;
-    private  Persona persona;
-    private  EstadoCivil estadoCivil;
-    private  Genero genero;
-    private  String nombre;
-    private  String apellido;
-    private  Date fechanace;
-    private  String telefonouno;
-    private  String telefonodos;
+@Entity
+@Table(name = "persona")
+public class Persona implements Serializable {
+
+    @Id
+    @Column(name = "cedula", updatable = false, nullable = false)
+    private String cedula;
+
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "id_cedula", referencedColumnName = "cedula")
+    private Persona persona;
+  
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "id_estado_civil", referencedColumnName = "id_estado_civil")
+    private EstadoCivil estadoCivil;
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "id_genero", referencedColumnName = "id_genero")
+    private Genero genero;
+
+    @Column
+    private String nombre;
+
+    @Column
+    private String apellido;
+
+    @Column
+    private Date fechaNace;
+
+    @Column
+    private String telefonoUno;
+
+    @Column
+    private  String telefonoDos;
+
+    @Column
     private  String direccion;
+
+
+    @OneToMany(mappedBy = "persona", cascade = CascadeType.ALL, orphanRemoval = true)
+    private List<Persona> personas = new ArrayList<>();
+
+
+
+    @OneToOne(mappedBy = "persona", cascade = CascadeType.ALL)
+    private Cliente cliente;
+
+
+
+
 }

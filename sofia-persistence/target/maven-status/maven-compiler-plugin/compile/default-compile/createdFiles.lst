@@ -1,1 +1,12 @@
-ucacue/edu/ec/persistence/Persona.class
+ucacue/edu/ec/persistence/repository/TipoCuentaRepository.class
+ucacue/edu/ec/persistence/entity/Persona.class
+ucacue/edu/ec/persistence/entity/EstadoCivil.class
+ucacue/edu/ec/persistence/entity/Cuenta.class
+ucacue/edu/ec/persistence/repository/EstadoCivilRepository.class
+ucacue/edu/ec/persistence/entity/Cliente.class
+ucacue/edu/ec/persistence/entity/Genero.class
+ucacue/edu/ec/persistence/repository/GeneroRepository.class
+ucacue/edu/ec/persistence/repository/PersonaRepository.class
+ucacue/edu/ec/persistence/entity/TipoCuenta.class
+ucacue/edu/ec/persistence/repository/PleopleRepository.class
+ucacue/edu/ec/persistence/repository/BaseRepository.class

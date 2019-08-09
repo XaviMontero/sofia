@@ -34,6 +34,22 @@
             <scope>compile</scope>
         </dependency>
 
+        <dependency>
+            <groupId>ucacue.edu.ec</groupId>
+            <artifactId>sofia-persistence</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>ucacue.edu.ec</groupId>
+            <artifactId>sofia-service</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>ucacue.edu.ec</groupId>
+            <artifactId>sofia-dto</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
 
     </dependencies>
     <build>
@@ -44,5 +60,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>

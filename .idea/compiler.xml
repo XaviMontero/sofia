@@ -6,15 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="sofia-persistence" />
+        <module name="sofia-service" />
+        <module name="sofia-common" />
         <module name="sofia-web" />
+        <module name="sofia-dto" />
+        <module name="sofia-persistence" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="sofia" options="" />
+      <module name="sofia-common" options="-parameters" />
+      <module name="sofia-dto" options="-parameters" />
       <module name="sofia-persistence" options="-parameters" />
+      <module name="sofia-service" options="-parameters" />
       <module name="sofia-web" options="-parameters" />
     </option>
   </component>
