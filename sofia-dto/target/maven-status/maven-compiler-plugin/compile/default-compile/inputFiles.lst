@@ -1,5 +1,13 @@
-/media/xavi/archivos-xavi/xavi/git/sofia/sofia-dto/src/main/java/ucacue/edu/ec/dto/SofiaResponseDTO.java
+/media/xavi/archivos-xavi/xavi/git/sofia/sofia-dto/src/main/java/ucacue/edu/ec/dto/CuentaDTO.java
 /media/xavi/archivos-xavi/xavi/git/sofia/sofia-dto/src/main/java/ucacue/edu/ec/dto/PersonaDTO.java
 /media/xavi/archivos-xavi/xavi/git/sofia/sofia-dto/src/main/java/ucacue/edu/ec/dto/EstadoCivilDTO.java
+/media/xavi/archivos-xavi/xavi/git/sofia/sofia-dto/src/main/java/ucacue/edu/ec/dto/ClienteDTO.java
+/media/xavi/archivos-xavi/xavi/git/sofia/sofia-dto/src/main/java/ucacue/edu/ec/dto/EstadoCuentaDTO.java
+/media/xavi/archivos-xavi/xavi/git/sofia/sofia-dto/src/main/java/ucacue/edu/ec/dto/SofiaResponseDTO.java
+/media/xavi/archivos-xavi/xavi/git/sofia/sofia-dto/src/main/java/ucacue/edu/ec/dto/CiudadDTO.java
+/media/xavi/archivos-xavi/xavi/git/sofia/sofia-dto/src/main/java/ucacue/edu/ec/dto/TrabajadorDTO.java
 /media/xavi/archivos-xavi/xavi/git/sofia/sofia-dto/src/main/java/ucacue/edu/ec/dto/TipoCuentaDTO.java
+/media/xavi/archivos-xavi/xavi/git/sofia/sofia-dto/src/main/java/ucacue/edu/ec/dto/TransacionDTO.java
+/media/xavi/archivos-xavi/xavi/git/sofia/sofia-dto/src/main/java/ucacue/edu/ec/dto/SucursalDTO.java
+/media/xavi/archivos-xavi/xavi/git/sofia/sofia-dto/src/main/java/ucacue/edu/ec/dto/TipoTransacionDTO.java
 /media/xavi/archivos-xavi/xavi/git/sofia/sofia-dto/src/main/java/ucacue/edu/ec/dto/GeneroDTO.java

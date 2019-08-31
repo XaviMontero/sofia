@@ -5,15 +5,13 @@ import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import ucacue.edu.ec.dto.EstadoCivilDTO;
-import ucacue.edu.ec.dto.PersonaDTO;
-import ucacue.edu.ec.dto.SofiaResponseDTO;
-import ucacue.edu.ec.persistence.entity.EstadoCivil;
-import ucacue.edu.ec.persistence.entity.Persona;
+import ucacue.edu.ec.dto.*;
+import ucacue.edu.ec.persistence.entity.*;
 import ucacue.edu.ec.service.GenericCRUDService;
 
 import javax.validation.Valid;
@@ -32,8 +30,20 @@ public class OperacionesController {
     @Autowired
     @Qualifier("personaServicelmpl")
     private GenericCRUDService<Persona, PersonaDTO> servicesPersona;
+    @Autowired
+    @Qualifier("clienteServicelmpl")
+    private GenericCRUDService<Cliente, ClienteDTO> servicesCliente;
+    @Autowired
+    @Qualifier("cuentaServicelmpl")
+    private GenericCRUDService<Cuenta, CuentaDTO> serviceCuenta;
 
+    @Autowired
+    @Qualifier("trabajoServicelmpl")
+    private GenericCRUDService<Trabajador, TrabajadorDTO> serviceTrabajador;
 
+    @Autowired
+    @Qualifier("transaccionServicelmpl")
+    private GenericCRUDService<Transacion, TransacionDTO> seviceTransacion;
     @ApiOperation(value = "Almacena un estado civil ")
     @PostMapping(value = "estado-civil", produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<Object> insertEstadoCivil(
@@ -54,6 +64,106 @@ public class OperacionesController {
         return new ResponseEntity<>(response, HttpStatus.CREATED);
     }
 
+    @ApiOperation(value = "Almacena un Cliente")
+    @PostMapping(value = "save-cliente", produces = MediaType.APPLICATION_JSON_VALUE)
+    public ResponseEntity<Object> insertCliente(
+            @Valid @ApiParam(value = API_DOC_ANEXO_1, required = true) @RequestBody ClienteDTO clienteDTO) {
+        SofiaResponseDTO<Object> response = new SofiaResponseDTO<>();
+        servicesCliente.saveOrUpdate(clienteDTO);
+        response.setSuccess(true);
+        return new ResponseEntity<>(response, HttpStatus.CREATED);
+    }
 
+    @ApiOperation(value = "Almacena una Cuenta")
+    @PostMapping(value = "save-cuenta", produces = MediaType.APPLICATION_JSON_VALUE)
+    public ResponseEntity<Object> insertCuenta(
+            @Valid @ApiParam(value = API_DOC_ANEXO_1, required = true) @RequestBody CuentaDTO cuentaDTO) {
+        SofiaResponseDTO<Object> response = new SofiaResponseDTO<>();
+        serviceCuenta.saveOrUpdate(cuentaDTO);
+        response.setSuccess(true);
+        return new ResponseEntity<>(response, HttpStatus.CREATED);
+
+    }
+
+        @ApiOperation(value = "Almacena un trabajador")
+        @PostMapping(value = "save-trabajador", produces = MediaType.APPLICATION_JSON_VALUE)
+        public ResponseEntity<Object> insertTrabajador(
+                @Valid @ApiParam(value = API_DOC_ANEXO_1, required = true) @RequestBody TrabajadorDTO trabajadorDTO) {
+            SofiaResponseDTO<Object> response = new SofiaResponseDTO<>();
+            serviceTrabajador.saveOrUpdate(trabajadorDTO);
+            response.setSuccess(true);
+            return new ResponseEntity<>(response, HttpStatus.CREATED);
+        }
+
+    @ApiOperation(value = "Devolver una persona   ")
+    @GetMapping(value = "{cedula}/cliente", produces = MediaType.APPLICATION_JSON_VALUE)
+    public ResponseEntity<Object> reportesZona(
+            @Valid @ApiParam(value = API_DOC_ANEXO_1, required = true) @PathVariable("cedula") String cedula
+    ){
+
+        HttpHeaders headers = new HttpHeaders();
+        headers.add(HttpHeaders.CONTENT_TYPE, "application/json; charset=UTF-8");
+        PersonaDTO p = new PersonaDTO();
+        p.setCedula(cedula);
+        Persona p1=servicesPersona.getOne(p);
+        if (p1!= null) {
+
+            return (new ResponseEntity<Object>(servicesPersona.build(p1), headers, HttpStatus.OK));
+        }else {
+            SofiaResponseDTO<Object> response = new SofiaResponseDTO<>();
+
+            response.setSuccess(false);
+            return new ResponseEntity<>(null, HttpStatus.OK);
+        }
+    }
+
+    @ApiOperation(value = "Almacena una transaccion")
+    @PostMapping(value = "save-transaccion", produces = MediaType.APPLICATION_JSON_VALUE)
+    public ResponseEntity<Object> insertTrasacion(
+            @Valid @ApiParam(value = API_DOC_ANEXO_1, required = true) @RequestBody TransacionDTO transacionDTO) {
+        SofiaResponseDTO<Object> response = new SofiaResponseDTO<>();
+        seviceTransacion.saveOrUpdate(transacionDTO);
+        response.setSuccess(true);
+        return new ResponseEntity<>(response, HttpStatus.CREATED);
+    }
+
+    @ApiOperation(value = "Devolver estado cuenta  ")
+    @GetMapping(value = "{id}/estado", produces = MediaType.APPLICATION_JSON_VALUE)
+    public ResponseEntity<Object> estadoCuenta(
+            @Valid @ApiParam(value = API_DOC_ANEXO_1, required = true) @PathVariable("id") long id
+    ){
+        HttpHeaders headers = new HttpHeaders();
+        headers.add(HttpHeaders.CONTENT_TYPE, "application/json; charset=UTF-8");
+        return (new ResponseEntity<Object>(seviceTransacion.estadoCuenta(id), headers, HttpStatus.OK));
+
+    }
+    @ApiOperation(value = "Devolver una cuenta  mediante la cedula  ")
+    @GetMapping(value = "{cedula}/cuenta", produces = MediaType.APPLICATION_JSON_VALUE)
+    public ResponseEntity<Object> getCliente(
+            @Valid @ApiParam(value = API_DOC_ANEXO_1, required = true) @PathVariable("cedula") String cedula
+    ){
+        PersonaDTO personaDTO = new PersonaDTO();
+        personaDTO.setCedula(cedula);
+        ClienteDTO clienteDTO = new ClienteDTO();
+        clienteDTO.setPersonaDTO(personaDTO);
+        CuentaDTO cuentaDTO = new CuentaDTO();
+        cuentaDTO.setClienteDTO(clienteDTO);
+        HttpHeaders headers = new HttpHeaders();
+        headers.add(HttpHeaders.CONTENT_TYPE, "application/json; charset=UTF-8");
+        return (new ResponseEntity<Object>(serviceCuenta.build(serviceCuenta.findByCedula(cuentaDTO)), headers, HttpStatus.OK));
+
+    }
+    @ApiOperation(value = "Devolver una cuenta mediante id  ")
+    @GetMapping(value = "{id}/cuenta-id", produces = MediaType.APPLICATION_JSON_VALUE)
+    public ResponseEntity<Object> getClienteId(
+            @Valid @ApiParam(value = API_DOC_ANEXO_1, required = true) @PathVariable("id") long id
+    ){
+        CuentaDTO cuentaDTO = new CuentaDTO();
+        cuentaDTO.setId(id);
+        HttpHeaders headers = new HttpHeaders();
+        headers.add(HttpHeaders.CONTENT_TYPE, "application/json; charset=UTF-8");
+        return (new ResponseEntity<Object>(serviceCuenta.build(serviceCuenta.getOne(cuentaDTO)), headers, HttpStatus.OK));
+
+    }
 
 }

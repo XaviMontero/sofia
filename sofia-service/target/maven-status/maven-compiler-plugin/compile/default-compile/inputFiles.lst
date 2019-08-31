@@ -1,6 +1,13 @@
-/media/xavi/archivos-xavi/xavi/git/sofia/sofia-service/src/main/java/ucacue/edu/ec/service/impl/EstadoCivilServicelmpl.java
 /media/xavi/archivos-xavi/xavi/git/sofia/sofia-service/src/main/java/ucacue/edu/ec/service/impl/GeneroServicelmpl.java
-/media/xavi/archivos-xavi/xavi/git/sofia/sofia-service/src/main/java/ucacue/edu/ec/service/impl/TipoCuentaServicelmpl.java
+/media/xavi/archivos-xavi/xavi/git/sofia/sofia-service/src/main/java/ucacue/edu/ec/service/impl/SucursalServicelmpl.java
+/media/xavi/archivos-xavi/xavi/git/sofia/sofia-service/src/main/java/ucacue/edu/ec/service/impl/CiudadServicelmpl.java
+/media/xavi/archivos-xavi/xavi/git/sofia/sofia-service/src/main/java/ucacue/edu/ec/service/impl/ClienteServicelmpl.java
+/media/xavi/archivos-xavi/xavi/git/sofia/sofia-service/src/main/java/ucacue/edu/ec/service/impl/TransaccionServicelmpl.java
+/media/xavi/archivos-xavi/xavi/git/sofia/sofia-service/src/main/java/ucacue/edu/ec/service/impl/CuentaServicelmpl.java
 /media/xavi/archivos-xavi/xavi/git/sofia/sofia-service/src/main/java/ucacue/edu/ec/service/impl/PersonaServicelmpl.java
+/media/xavi/archivos-xavi/xavi/git/sofia/sofia-service/src/main/java/ucacue/edu/ec/service/impl/EstadoCivilServicelmpl.java
+/media/xavi/archivos-xavi/xavi/git/sofia/sofia-service/src/main/java/ucacue/edu/ec/service/impl/TipoTransaccionServicelmpl.java
+/media/xavi/archivos-xavi/xavi/git/sofia/sofia-service/src/main/java/ucacue/edu/ec/service/impl/TrabajoServicelmpl.java
+/media/xavi/archivos-xavi/xavi/git/sofia/sofia-service/src/main/java/ucacue/edu/ec/service/impl/TipoCuentaServicelmpl.java
 /media/xavi/archivos-xavi/xavi/git/sofia/sofia-service/src/main/java/ucacue/edu/ec/service/GenericCRUDService.java
 /media/xavi/archivos-xavi/xavi/git/sofia/sofia-service/src/main/java/ucacue/edu/ec/service/impl/GenericCRUDServiceImpl.java

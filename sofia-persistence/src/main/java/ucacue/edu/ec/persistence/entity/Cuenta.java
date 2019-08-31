@@ -5,6 +5,7 @@ import lombok.Setter;
 import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Date;
+import java.util.Set;
 
 @Getter
 @Setter
@@ -18,7 +19,7 @@ public class Cuenta implements Serializable {
     private  long id;
 
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "cedula", referencedColumnName = "cedula")
+    @JoinColumn(name = "id_cliente", referencedColumnName = "id_cliente")
     private  Cliente cliente;
 
 
@@ -27,10 +28,18 @@ public class Cuenta implements Serializable {
     private TipoCuenta tipocuenta;
 
     @Column
-    private  Boolean estado;
+    private  int estado;
 
     @Column
     private Date fechaCreacion;
+
+
+    @Column
+    private String descripcion;
+
+    @OneToMany(fetch = FetchType.LAZY, mappedBy = "cuenta")
+    private Set<Transacion> transacions;
+
 
 
 }

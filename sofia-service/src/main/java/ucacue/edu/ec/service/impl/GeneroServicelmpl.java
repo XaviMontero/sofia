@@ -21,6 +21,11 @@ public class GeneroServicelmpl  extends   GenericCRUDServiceImpl <Genero, Genero
     }
 
     @Override
+    public Genero findByCedula(GeneroDTO domainObject) {
+        return null;
+    }
+
+    @Override
     public Genero mapTo(GeneroDTO generoDTO) {
         Genero genero  = new Genero();
         genero.setDescripcion(generoDTO.getDescripcion());

@@ -12,7 +12,11 @@ import java.util.Optional;
 public interface BaseRepository<T, ID extends Serializable> extends JpaRepository<T, ID> {
 
     public Optional<T> findById(long id);
+
+
     public Optional<T> findByDescripcion(String descripcion);
 
     public T getOneByDescripcion(String descripcion);
+
+
 }

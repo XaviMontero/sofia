@@ -29,15 +29,17 @@ public class PersonaServicelmpl extends GenericCRUDServiceImpl <Persona, Persona
     }
 
     @Override
+    public Persona findByCedula(PersonaDTO domainObject) {
+        return null;
+    }
+
+    @Override
     public Persona mapTo(PersonaDTO personaDTO) {
 
         Persona persona = new Persona();
             //Casada
-
             if(personaDTO.getPersona()!= null){
-
                 persona.setPersona(getOne(personaDTO.getPersona()));
-
              }else {
                 persona.setPersona(null);
             }
@@ -77,7 +79,7 @@ public class PersonaServicelmpl extends GenericCRUDServiceImpl <Persona, Persona
         personaDTO.setEstadoCivil(estadoCivilServicelmpl.build(persona.getEstadoCivil()));
         personaDTO.setFechaNace(DateUtils.convertirGreggorianToDDMMYYYY(persona.getFechaNace().toString()));
 
-        if (persona.getPersona().getCedula().isEmpty()) {
+        if (persona.getPersona()!=null) {
 
             casadoDTO.setCedula(persona.getPersona().getCedula());
             casadoDTO.setNombre(persona.getPersona().getNombre());

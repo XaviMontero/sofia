@@ -1,5 +1,13 @@
+ucacue/edu/ec/dto/SucursalDTO.class
 ucacue/edu/ec/dto/SofiaResponseDTO.class
-ucacue/edu/ec/dto/GeneroDTO.class
-ucacue/edu/ec/dto/PersonaDTO.class
 ucacue/edu/ec/dto/TipoCuentaDTO.class
+ucacue/edu/ec/dto/CuentaDTO.class
 ucacue/edu/ec/dto/EstadoCivilDTO.class
+ucacue/edu/ec/dto/EstadoCuentaDTO.class
+ucacue/edu/ec/dto/GeneroDTO.class
+ucacue/edu/ec/dto/ClienteDTO.class
+ucacue/edu/ec/dto/TrabajadorDTO.class
+ucacue/edu/ec/dto/CiudadDTO.class
+ucacue/edu/ec/dto/TransacionDTO.class
+ucacue/edu/ec/dto/PersonaDTO.class
+ucacue/edu/ec/dto/TipoTransacionDTO.class

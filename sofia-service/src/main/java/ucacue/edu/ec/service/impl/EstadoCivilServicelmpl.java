@@ -20,6 +20,11 @@ public class EstadoCivilServicelmpl extends   GenericCRUDServiceImpl <EstadoCivi
     }
 
     @Override
+    public EstadoCivil findByCedula(EstadoCivilDTO domainObject) {
+        return null;
+    }
+
+    @Override
     public EstadoCivil mapTo(EstadoCivilDTO estadoCivilDTO) {
 
         EstadoCivil estadoCivil = new EstadoCivil();

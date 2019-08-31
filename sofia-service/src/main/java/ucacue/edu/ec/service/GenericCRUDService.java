@@ -1,5 +1,8 @@
 package ucacue.edu.ec.service;
 
+import ucacue.edu.ec.dto.CuentaDTO;
+import ucacue.edu.ec.dto.EstadoCuentaDTO;
+
 import java.util.List;
 import java.util.Optional;
 
@@ -39,6 +42,10 @@ public interface GenericCRUDService <DOMAIN, DTO> {
     public DOMAIN find(long id );
 
     public DOMAIN getOne(DTO domainObject);
+
+    public DOMAIN findByCedula(DTO domainObject);
+
+    public  List<EstadoCuentaDTO> estadoCuenta(long doDto );
 
 
 }

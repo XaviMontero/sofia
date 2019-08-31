@@ -21,6 +21,11 @@ public class TipoCuentaServicelmpl extends   GenericCRUDServiceImpl <TipoCuenta,
     }
 
     @Override
+    public TipoCuenta findByCedula(TipoCuentaDTO domainObject) {
+        return null;
+    }
+
+    @Override
     public TipoCuenta mapTo(TipoCuentaDTO tipoCuentaDTO) {
         TipoCuenta tipoCuenta = new TipoCuenta();
         tipoCuenta.setDescripcion(tipoCuentaDTO.getDescripcion());

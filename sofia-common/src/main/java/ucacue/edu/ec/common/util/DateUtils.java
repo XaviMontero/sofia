@@ -23,9 +23,9 @@ public class DateUtils {
 	public static String convertirGreggorianToDDMMYYYY(String fecha) throws SofiaException {
 		try {
 			Date date = null;
-			SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss");
+			SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
 			date = sdf.parse(fecha);
-			DateFormat formatoFecha = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
+			DateFormat formatoFecha = new SimpleDateFormat("dd/MM/yyyy");
 			fecha = formatoFecha.format(date);
 			return fecha;
 		} catch (ParseException e) {
@@ -49,6 +49,15 @@ public class DateUtils {
 			logger.error("getFechaFromStringddMMyyyy", e);
 			throw new SofiaException(e.getMessage());
 		}
+	}
+
+	public static String getFechaActual(){
+
+		 Date fecha = new Date();
+		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+
+
+		return  sdf.format(fecha);
 	}
 
 }

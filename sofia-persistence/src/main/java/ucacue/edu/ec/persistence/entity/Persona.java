@@ -1,8 +1,7 @@
 package ucacue.edu.ec.persistence.entity;
 
 
-import com.fasterxml.jackson.annotation.JsonBackReference;
-import lombok.Getter;
+ import lombok.Getter;
 import lombok.Setter;
 
 import javax.persistence.*;
@@ -55,11 +54,11 @@ public class Persona implements Serializable {
     @OneToMany(mappedBy = "persona", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<Persona> personas = new ArrayList<>();
 
+    @OneToMany(mappedBy = "persona", cascade = CascadeType.ALL, orphanRemoval = true)
+    private List<Cliente> clientes = new ArrayList<>();
 
-
-    @OneToOne(mappedBy = "persona", cascade = CascadeType.ALL)
-    private Cliente cliente;
-
+    @OneToMany(mappedBy = "persona", cascade = CascadeType.ALL, orphanRemoval = true)
+    private List<Trabajador> trabajadors = new ArrayList<>();
 
 
 

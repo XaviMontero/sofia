@@ -12,13 +12,23 @@ import java.io.Serializable;
 @Table(name = "cliente")
 public class Cliente implements Serializable {
 
-
     @Id
-    @OneToOne
-    @JoinColumn(name = "cedula")
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "cliente_generator")
+    @SequenceGenerator(name = "cliente_generator", sequenceName = "cliente_id_seq", allocationSize = 1)
+    @Column(name = "id_cliente", updatable = false, nullable = false)
+    private long id;
+
+
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "cedula", referencedColumnName ="cedula")
     private Persona persona;
 
     @Column
     private long calificacion;
+    @Column
+    private String descripcion;
+
+
 
 }
