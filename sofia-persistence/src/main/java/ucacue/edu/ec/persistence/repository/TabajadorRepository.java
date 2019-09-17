@@ -20,7 +20,6 @@ public interface TabajadorRepository extends  BaseRepository <Trabajador, Long> 
     Optional<Trabajador> findByPersonaCedula(String cedula);
 
     //login user pass
-
     Trabajador getOneByUsuarioAndPassword(String user, String password);
 
 

@@ -4,6 +4,7 @@ ucacue/edu/ec/service/impl/TipoTransaccionServicelmpl.class
 ucacue/edu/ec/service/impl/PersonaServicelmpl.class
 ucacue/edu/ec/service/GenericCRUDService.class
 ucacue/edu/ec/service/impl/SucursalServicelmpl.class
+ucacue/edu/ec/service/impl/PrestamoServicelmpl.class
 ucacue/edu/ec/service/impl/GenericCRUDServiceImpl.class
 ucacue/edu/ec/service/impl/CuentaServicelmpl.class
 ucacue/edu/ec/service/impl/TrabajoServicelmpl.class
@@ -11,3 +12,4 @@ ucacue/edu/ec/service/impl/TransaccionServicelmpl.class
 ucacue/edu/ec/service/impl/ClienteServicelmpl.class
 ucacue/edu/ec/service/impl/EstadoCivilServicelmpl.class
 ucacue/edu/ec/service/impl/CiudadServicelmpl.class
+ucacue/edu/ec/service/impl/GaranteServicelmpl.class

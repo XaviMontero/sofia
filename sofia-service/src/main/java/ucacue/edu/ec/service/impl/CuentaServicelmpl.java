@@ -6,6 +6,8 @@ import ucacue.edu.ec.common.util.DateUtils;
 import ucacue.edu.ec.dto.CuentaDTO;
 import ucacue.edu.ec.persistence.entity.Cuenta;
 import ucacue.edu.ec.persistence.repository.CuentaRepository;
+
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
@@ -64,7 +66,12 @@ public class CuentaServicelmpl extends   GenericCRUDServiceImpl <Cuenta, CuentaD
 
     @Override
     public List<CuentaDTO> findAll() {
-        return null;
+        List<CuentaDTO> cuentaDTOS = new ArrayList<>();
+        for (Cuenta recupera : cuentaRepository.findAll()){
+
+            cuentaDTOS.add(build(recupera));
+        }
+        return cuentaDTOS;
     }
     @Override
     public Cuenta findByCedula (CuentaDTO cuentaDTO){

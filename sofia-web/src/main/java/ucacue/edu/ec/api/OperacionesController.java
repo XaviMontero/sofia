@@ -41,6 +41,15 @@ public class OperacionesController {
     @Qualifier("trabajoServicelmpl")
     private GenericCRUDService<Trabajador, TrabajadorDTO> serviceTrabajador;
 
+
+    @Autowired
+    @Qualifier("garanteServicelmpl")
+    private GenericCRUDService<Garante, GaranteDTO> serviceGarante;
+
+    @Autowired
+    @Qualifier("prestamoServicelmpl")
+    private GenericCRUDService<Prestamo, PrestamoDTO> servicePrestamo;
+
     @Autowired
     @Qualifier("transaccionServicelmpl")
     private GenericCRUDService<Transacion, TransacionDTO> seviceTransacion;
@@ -70,6 +79,16 @@ public class OperacionesController {
             @Valid @ApiParam(value = API_DOC_ANEXO_1, required = true) @RequestBody ClienteDTO clienteDTO) {
         SofiaResponseDTO<Object> response = new SofiaResponseDTO<>();
         servicesCliente.saveOrUpdate(clienteDTO);
+        response.setSuccess(true);
+        return new ResponseEntity<>(response, HttpStatus.CREATED);
+    }
+
+    @ApiOperation(value = "Almacena un Garante")
+    @PostMapping(value = "save-garante", produces = MediaType.APPLICATION_JSON_VALUE)
+    public ResponseEntity<Object> insertGarante(
+            @Valid @ApiParam(value = API_DOC_ANEXO_1, required = true) @RequestBody GaranteDTO garanteDTO) {
+        SofiaResponseDTO<Object> response = new SofiaResponseDTO<>();
+        serviceGarante.saveOrUpdate(garanteDTO);
         response.setSuccess(true);
         return new ResponseEntity<>(response, HttpStatus.CREATED);
     }
@@ -137,6 +156,23 @@ public class OperacionesController {
         return (new ResponseEntity<Object>(seviceTransacion.estadoCuenta(id), headers, HttpStatus.OK));
 
     }
+
+
+
+    @ApiOperation(value = "Devolver un garante  ")
+    @GetMapping(value = "{cedula}/garante", produces = MediaType.APPLICATION_JSON_VALUE)
+    public ResponseEntity<Object> getGarante(
+            @Valid @ApiParam(value = API_DOC_ANEXO_1, required = true) @PathVariable("cedula") String cedula
+    ){
+        PersonaDTO p = new PersonaDTO();
+        p.setCedula(cedula);
+        GaranteDTO garanteDTO  = new GaranteDTO();
+        garanteDTO.setPersonaDTO(p);
+        HttpHeaders headers = new HttpHeaders();
+        headers.add(HttpHeaders.CONTENT_TYPE, "application/json; charset=UTF-8");
+        return (new ResponseEntity<Object>(serviceGarante.build(serviceGarante.getOne(garanteDTO)), headers, HttpStatus.OK));
+
+    }
     @ApiOperation(value = "Devolver una cuenta  mediante la cedula  ")
     @GetMapping(value = "{cedula}/cuenta", produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<Object> getCliente(
@@ -164,6 +200,41 @@ public class OperacionesController {
         headers.add(HttpHeaders.CONTENT_TYPE, "application/json; charset=UTF-8");
         return (new ResponseEntity<Object>(serviceCuenta.build(serviceCuenta.getOne(cuentaDTO)), headers, HttpStatus.OK));
 
+    }
+    @ApiOperation(value = "Devolver Todos los clientes")
+    @GetMapping(value = "/cuenta", produces = MediaType.APPLICATION_JSON_VALUE)
+    public ResponseEntity<Object> getClienes( ){
+
+        HttpHeaders headers = new HttpHeaders();
+        headers.add(HttpHeaders.CONTENT_TYPE, "application/json; charset=UTF-8");
+        return (new ResponseEntity<Object>(serviceCuenta.findAll(), headers, HttpStatus.OK));
+
+    }
+
+    @ApiOperation(value = "Devolver un prestamo  ")
+    @GetMapping(value = "{id}/prestamo", produces = MediaType.APPLICATION_JSON_VALUE)
+    public ResponseEntity<Object> getPrestamo(
+            @Valid @ApiParam(value = API_DOC_ANEXO_1, required = true) @PathVariable("id") long id
+    ){
+        CuentaDTO cuentaDTO = new CuentaDTO();
+        cuentaDTO.setId(id);
+        PrestamoDTO p = new PrestamoDTO();
+        p.setCuenta(cuentaDTO);
+        HttpHeaders headers = new HttpHeaders();
+        headers.add(HttpHeaders.CONTENT_TYPE, "application/json; charset=UTF-8");
+        return (new ResponseEntity<Object>(servicePrestamo.build(servicePrestamo.getOne(p)), headers, HttpStatus.OK));
+
+    }
+
+
+    @ApiOperation(value = "Almacena un prestamo cabecera ")
+    @PostMapping(value = "save-prestamo", produces = MediaType.APPLICATION_JSON_VALUE)
+    public ResponseEntity<Object> insertPrestamo(
+            @Valid @ApiParam(value = API_DOC_ANEXO_1, required = true) @RequestBody PrestamoDTO prestamoDTO) {
+        SofiaResponseDTO<Object> response = new SofiaResponseDTO<>();
+        servicePrestamo.saveOrUpdate(prestamoDTO);
+        response.setSuccess(true);
+        return new ResponseEntity<>(response, HttpStatus.CREATED);
     }
 
 }

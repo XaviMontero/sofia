@@ -4,7 +4,9 @@ ucacue/edu/ec/dto/TipoCuentaDTO.class
 ucacue/edu/ec/dto/CuentaDTO.class
 ucacue/edu/ec/dto/EstadoCivilDTO.class
 ucacue/edu/ec/dto/EstadoCuentaDTO.class
+ucacue/edu/ec/dto/PrestamoDTO.class
 ucacue/edu/ec/dto/GeneroDTO.class
+ucacue/edu/ec/dto/GaranteDTO.class
 ucacue/edu/ec/dto/ClienteDTO.class
 ucacue/edu/ec/dto/TrabajadorDTO.class
 ucacue/edu/ec/dto/CiudadDTO.class

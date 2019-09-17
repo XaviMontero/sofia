@@ -40,6 +40,9 @@ public class Cuenta implements Serializable {
     @OneToMany(fetch = FetchType.LAZY, mappedBy = "cuenta")
     private Set<Transacion> transacions;
 
+    @OneToMany(fetch = FetchType.LAZY, mappedBy = "cuenta")
+    private Set<Prestamo> prestamos;
+
 
 
 }

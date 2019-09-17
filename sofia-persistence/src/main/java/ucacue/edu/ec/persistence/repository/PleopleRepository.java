@@ -11,7 +11,6 @@ import java.util.Optional;
 public interface PleopleRepository <T, ID extends Serializable> extends JpaRepository<T, ID> {
 
     public Optional<T> findByCedula(String cedula);
-    public Optional<T> findByNombre(String nombre);
     public T getOneByCedula (String cedula);
 
 }
