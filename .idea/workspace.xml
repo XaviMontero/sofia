@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="227cff12-d2b1-44e7-b240-0a00079b8c5c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sofia-dto/src/main/java/ucacue/edu/ec/dto/GaranteDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sofia-dto/src/main/java/ucacue/edu/ec/dto/PrestamoDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/entity/Garante.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/entity/Prestamo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/repository/GaranteRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/repository/PrestamoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sofia-service/src/main/java/ucacue/edu/ec/service/impl/GaranteServicelmpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sofia-service/src/main/java/ucacue/edu/ec/service/impl/PrestamoServicelmpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sofia-dto/src/main/java/ucacue/edu/ec/dto/PrestamoDetalleDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/entity/PrestamoDetalle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/repository/PrestamoDetalleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sofia-service/src/main/java/ucacue/edu/ec/service/impl/PrestamoDetalleServicelmpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sofia-common/target/classes/ucacue/edu/ec/common/da.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-common/target/classes/ucacue/edu/ec/common/da.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sofia-common/target/classes/ucacue/edu/ec/common/exception/SofiaException.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-common/target/classes/ucacue/edu/ec/common/exception/SofiaException.class" afterDir="false" />
@@ -22,8 +18,10 @@
       <change beforePath="$PROJECT_DIR$/sofia-dto/target/classes/ucacue/edu/ec/dto/CuentaDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-dto/target/classes/ucacue/edu/ec/dto/CuentaDTO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sofia-dto/target/classes/ucacue/edu/ec/dto/EstadoCivilDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-dto/target/classes/ucacue/edu/ec/dto/EstadoCivilDTO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sofia-dto/target/classes/ucacue/edu/ec/dto/EstadoCuentaDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-dto/target/classes/ucacue/edu/ec/dto/EstadoCuentaDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sofia-dto/target/classes/ucacue/edu/ec/dto/GaranteDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-dto/target/classes/ucacue/edu/ec/dto/GaranteDTO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sofia-dto/target/classes/ucacue/edu/ec/dto/GeneroDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-dto/target/classes/ucacue/edu/ec/dto/GeneroDTO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sofia-dto/target/classes/ucacue/edu/ec/dto/PersonaDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-dto/target/classes/ucacue/edu/ec/dto/PersonaDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sofia-dto/target/classes/ucacue/edu/ec/dto/PrestamoDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-dto/target/classes/ucacue/edu/ec/dto/PrestamoDTO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sofia-dto/target/classes/ucacue/edu/ec/dto/SofiaResponseDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-dto/target/classes/ucacue/edu/ec/dto/SofiaResponseDTO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sofia-dto/target/classes/ucacue/edu/ec/dto/SucursalDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-dto/target/classes/ucacue/edu/ec/dto/SucursalDTO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sofia-dto/target/classes/ucacue/edu/ec/dto/TipoCuentaDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-dto/target/classes/ucacue/edu/ec/dto/TipoCuentaDTO.class" afterDir="false" />
@@ -34,18 +32,15 @@
       <change beforePath="$PROJECT_DIR$/sofia-dto/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-dto/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sofia-dto/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-dto/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sofia-dto/target/sofia-dto-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-dto/target/sofia-dto-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/entity/Cuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/entity/Cuenta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/entity/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/entity/Persona.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/repository/CuentaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/repository/CuentaRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/repository/PersonaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/repository/PersonaRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/repository/PleopleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/repository/PleopleRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/repository/TabajadorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/repository/TabajadorRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/entity/Ciudad.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/entity/Ciudad.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/entity/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/entity/Cliente.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/entity/Cuenta.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/entity/Cuenta.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/entity/EstadoCivil.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/entity/EstadoCivil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/entity/Garante.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/entity/Garante.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/entity/Genero.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/entity/Genero.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/entity/Persona.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/entity/Persona.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/entity/Prestamo.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/entity/Prestamo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/entity/Sucursal.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/entity/Sucursal.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/entity/TipoCuenta.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/entity/TipoCuenta.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/entity/TipoTransacion.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/entity/TipoTransacion.class" afterDir="false" />
@@ -56,7 +51,6 @@
       <change beforePath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/repository/EstadoCivilRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/repository/EstadoCivilRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/repository/GeneroRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/repository/GeneroRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/repository/PersonaRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/repository/PersonaRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/repository/PleopleRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/repository/PleopleRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/repository/SucursalRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/repository/SucursalRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/repository/TipoCuentaRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/repository/TipoCuentaRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/repository/TipoTransaccionRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/repository/TipoTransaccionRepository.class" afterDir="false" />
@@ -65,14 +59,15 @@
       <change beforePath="$PROJECT_DIR$/sofia-persistence/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-persistence/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sofia-persistence/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-persistence/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sofia-persistence/target/sofia-persistence-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-persistence/target/sofia-persistence-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-service/src/main/java/ucacue/edu/ec/service/impl/CuentaServicelmpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-service/src/main/java/ucacue/edu/ec/service/impl/CuentaServicelmpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sofia-service/target/classes/ucacue/edu/ec/service/impl/CiudadServicelmpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-service/target/classes/ucacue/edu/ec/service/impl/CiudadServicelmpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sofia-service/target/classes/ucacue/edu/ec/service/impl/ClienteServicelmpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-service/target/classes/ucacue/edu/ec/service/impl/ClienteServicelmpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sofia-service/target/classes/ucacue/edu/ec/service/impl/CuentaServicelmpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-service/target/classes/ucacue/edu/ec/service/impl/CuentaServicelmpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sofia-service/target/classes/ucacue/edu/ec/service/impl/EstadoCivilServicelmpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-service/target/classes/ucacue/edu/ec/service/impl/EstadoCivilServicelmpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sofia-service/target/classes/ucacue/edu/ec/service/impl/GaranteServicelmpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-service/target/classes/ucacue/edu/ec/service/impl/GaranteServicelmpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sofia-service/target/classes/ucacue/edu/ec/service/impl/GenericCRUDServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-service/target/classes/ucacue/edu/ec/service/impl/GenericCRUDServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sofia-service/target/classes/ucacue/edu/ec/service/impl/GeneroServicelmpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-service/target/classes/ucacue/edu/ec/service/impl/GeneroServicelmpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sofia-service/target/classes/ucacue/edu/ec/service/impl/PersonaServicelmpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-service/target/classes/ucacue/edu/ec/service/impl/PersonaServicelmpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sofia-service/target/classes/ucacue/edu/ec/service/impl/PrestamoServicelmpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-service/target/classes/ucacue/edu/ec/service/impl/PrestamoServicelmpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sofia-service/target/classes/ucacue/edu/ec/service/impl/SucursalServicelmpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-service/target/classes/ucacue/edu/ec/service/impl/SucursalServicelmpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sofia-service/target/classes/ucacue/edu/ec/service/impl/TipoCuentaServicelmpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-service/target/classes/ucacue/edu/ec/service/impl/TipoCuentaServicelmpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sofia-service/target/classes/ucacue/edu/ec/service/impl/TipoTransaccionServicelmpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-service/target/classes/ucacue/edu/ec/service/impl/TipoTransaccionServicelmpl.class" afterDir="false" />
@@ -109,10 +104,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sofia-dto/src/main/java/ucacue/edu/ec/dto/PrestamoDTO.java">
+        <entry file="file://$PROJECT_DIR$/sofia-service/src/main/java/ucacue/edu/ec/service/impl/PrestamoDetalleServicelmpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+            <state relative-caret-position="315">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -121,69 +116,73 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sofia-dto/src/main/java/ucacue/edu/ec/dto/GaranteDTO.java">
+        <entry file="file://$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/entity/PrestamoDetalle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="8" selection-start-line="8" selection-end-line="14" selection-end-column="24" />
+            <state relative-caret-position="315">
+              <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sofia-web/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="79" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/entity/EstadoCivil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="9" selection-start-line="9" selection-end-line="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/repository/PrestamoDetalleRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/entity/Prestamo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/entity/Genero.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sofia-web/src/main/java/ucacue/edu/ec/api/OperacionesController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="200" column="39" selection-start-line="200" selection-start-column="39" selection-end-line="200" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="795">
-              <caret line="53" column="21" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sofia-service/src/main/java/ucacue/edu/ec/service/impl/ClienteServicelmpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#826#827#0" expanded="true" />
-                <element signature="e#853#854#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sofia-service/src/main/java/ucacue/edu/ec/service/impl/CuentaServicelmpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="930">
-              <caret line="73" column="25" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/repository/CuentaRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+            <state relative-caret-position="3060">
+              <caret line="219" column="25" selection-start-line="219" selection-start-column="25" selection-end-line="219" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -208,10 +207,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/repository/Sucursal.java" />
-        <option value="$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/repository/SucursalRepository.java" />
-        <option value="$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/entity/Ciudad.java" />
-        <option value="$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/entity/Sucursal.java" />
         <option value="$PROJECT_DIR$/sofia-dto/src/main/java/ucacue/edu/ec/dto/CiudadDTO.java" />
         <option value="$PROJECT_DIR$/sofia-dto/src/main/java/ucacue/edu/ec/dto/SucursalDTO.java" />
         <option value="$PROJECT_DIR$/sofia-service/src/main/java/ucacue/edu/ec/service/impl/Ciudad.java" />
@@ -246,7 +241,6 @@
         <option value="$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/entity/Persona.java" />
         <option value="$PROJECT_DIR$/sofia-dto/src/main/java/ucacue/edu/ec/dto/GaranteDTO.java" />
         <option value="$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/repository/PleopleRepository.java" />
-        <option value="$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/repository/PersonaRepository.java" />
         <option value="$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/repository/TabajadorRepository.java" />
         <option value="$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/repository/GaranteRepository.java" />
         <option value="$PROJECT_DIR$/sofia-service/src/main/java/ucacue/edu/ec/service/impl/GaranteServicelmpl.java" />
@@ -258,14 +252,19 @@
         <option value="$PROJECT_DIR$/sofia-service/src/main/java/ucacue/edu/ec/service/impl/PrestamoServicelmpl.java" />
         <option value="$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/repository/CuentaRepository.java" />
         <option value="$PROJECT_DIR$/sofia-service/src/main/java/ucacue/edu/ec/service/impl/CuentaServicelmpl.java" />
+        <option value="$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/repository/PersonaRepository.java" />
+        <option value="$PROJECT_DIR$/sofia-dto/src/main/java/ucacue/edu/ec/dto/PrestamoDetalleDTO.java" />
         <option value="$PROJECT_DIR$/sofia-web/src/main/java/ucacue/edu/ec/api/OperacionesController.java" />
+        <option value="$PROJECT_DIR$/sofia-service/src/main/java/ucacue/edu/ec/service/impl/PrestamoDetalleServicelmpl.java" />
+        <option value="$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/entity/PrestamoDetalle.java" />
+        <option value="$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/repository/PrestamoDetalleRepository.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="469" />
-    <option name="y" value="163" />
-    <option name="width" value="1020" />
+    <option name="x" value="633" />
+    <option name="y" value="134" />
+    <option name="width" value="1010" />
     <option name="height" value="742" />
   </component>
   <component name="ProjectView">
@@ -280,51 +279,6 @@
             <path>
               <item name="sofia" type="b2602c69:ProjectViewProjectNode" />
               <item name="sofia" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sofia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sofia" type="462c0819:PsiDirectoryNode" />
-              <item name="sofia-web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sofia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sofia" type="462c0819:PsiDirectoryNode" />
-              <item name="sofia-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sofia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sofia" type="462c0819:PsiDirectoryNode" />
-              <item name="sofia-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sofia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sofia" type="462c0819:PsiDirectoryNode" />
-              <item name="sofia-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sofia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sofia" type="462c0819:PsiDirectoryNode" />
-              <item name="sofia-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ec" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sofia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sofia" type="462c0819:PsiDirectoryNode" />
-              <item name="sofia-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ec" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -457,11 +411,13 @@
       <workItem from="1567986857921" duration="1430000" />
       <workItem from="1568065191890" duration="619000" />
       <workItem from="1568642542305" duration="15000" />
+      <workItem from="1569275228854" duration="5208000" />
+      <workItem from="1569331288473" duration="862000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123898000" />
+    <option name="totallyTimeSpent" value="129968000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -475,7 +431,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="994" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30469584" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31216648" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -499,7 +455,7 @@
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.3298611" />
       <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.3298611" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.32871974" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -512,182 +468,49 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="Bean Validation" order="10" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30843115" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Learn" order="7" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.3298611" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.3298611" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.3298611" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.39930555" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.3298611" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.3293919" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3298611" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.3298611" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.3298611" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Codota" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/repository/CiudadRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="74" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="74" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/repository/ClienteRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="57" lean-forward="true" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sofia-dto/src/main/java/ucacue/edu/ec/dto/TipoTransaccionDTO.java" />
-    <entry file="file://$PROJECT_DIR$/sofia-dto/src/main/java/ucacue/edu/ec/dto/CiudadDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" selection-start-line="9" selection-end-line="10" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sofia-dto/src/main/java/ucacue/edu/ec/dto/TipoCuentaDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/entity/Cliente.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="29" column="30" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/repository/TipoTransaccionRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="89" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="89" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/entity/Transacion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/util/ArrayList.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="38" column="11" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
-          <folding>
-            <element signature="e#1241#1242#0" expanded="true" />
-            <element signature="e#1309#1310#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sofia-common/src/main/java/ucacue/edu/ec/common/util/DateUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sofia-dto/src/main/java/ucacue/edu/ec/dto/EstadoCivilDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sofia-dto/src/main/java/ucacue/edu/ec/dto/EstadoCuentaDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sofia-service/src/main/java/ucacue/edu/ec/service/impl/TipoCuentaServicelmpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#788#789#0" expanded="true" />
-            <element signature="e#815#816#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sofia-service/src/main/java/ucacue/edu/ec/service/impl/SucursalServicelmpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#837#838#0" expanded="true" />
-            <element signature="e#864#865#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sofia-service/src/main/java/ucacue/edu/ec/service/impl/PersonaServicelmpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#914#915#0" expanded="true" />
-            <element signature="e#941#942#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sofia-service/src/main/java/ucacue/edu/ec/service/impl/GeneroServicelmpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="20" />
-          <folding>
-            <element signature="e#744#745#0" expanded="true" />
-            <element signature="e#771#772#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sofia-service/src/main/java/ucacue/edu/ec/service/impl/CiudadServicelmpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#735#736#0" expanded="true" />
-            <element signature="e#762#763#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sofia-service/src/main/java/ucacue/edu/ec/service/impl/GenericCRUDServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
@@ -764,16 +587,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/repository/TransacionRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/repository/BaseRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -781,16 +594,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/repository/BaseTransacionRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/repository/BaseTransacionRepository.java" />
     <entry file="file://$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/entity/Trabajador.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
@@ -833,60 +637,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/entity/EstadoCivil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/entity/Cuenta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/repository/PersonaRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/repository/GeneroRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/repository/PleopleRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/repository/GaranteRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="33" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/repository/TabajadorRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -897,30 +647,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/repository/PrestamoRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/entity/Garante.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/entity/Prestamo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="19" selection-start-line="19" selection-end-line="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -941,16 +671,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="30" column="85" selection-start-line="30" selection-start-column="85" selection-end-line="30" selection-end-column="85" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sofia-service/src/main/java/ucacue/edu/ec/service/impl/PrestamoServicelmpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="50" column="39" selection-start-line="50" selection-start-column="39" selection-end-line="50" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1006,20 +726,258 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/repository/CuentaRepository.java">
+    <entry file="file://$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/entity/Transacion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+        <state relative-caret-position="521">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/repository/TipoCuentaRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/repository/SucursalRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/repository/GeneroRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/repository/GaranteRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="33" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/repository/TransacionRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/entity/Cuenta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sofia-dto/src/main/java/ucacue/edu/ec/dto/PersonaDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sofia-service/src/main/java/ucacue/edu/ec/service/impl/CiudadServicelmpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+            <element signature="e#762#763#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sofia-service/src/main/java/ucacue/edu/ec/service/impl/PersonaServicelmpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="51" column="53" lean-forward="true" selection-start-line="51" selection-start-column="53" selection-end-line="51" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#914#915#0" expanded="true" />
+            <element signature="e#941#942#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sofia-service/src/main/java/ucacue/edu/ec/service/impl/PrestamoServicelmpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="66" column="73" selection-start-line="66" selection-start-column="44" selection-end-line="66" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sofia-dto/src/main/java/ucacue/edu/ec/dto/PrestamoDetalleDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="31" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sofia-web/src/main/java/ucacue/edu/ec/config/SwaggerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/repository/PrestamoRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/repository/ClienteRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/repository/EstadoCivilRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/repository/PersonaRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/repository/PleopleRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/1.11.9.RELEASE/spring-data-jpa-1.11.9.RELEASE-sources.jar!/org/springframework/data/jpa/repository/JpaRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="43" column="12" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/repository/CiudadRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/repository/CuentaRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="18" selection-end-column="110" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sofia-service/src/main/java/ucacue/edu/ec/service/impl/PrestamoDetalleServicelmpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/entity/Genero.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sofia-web/src/main/java/ucacue/edu/ec/api/OperacionesController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="200" column="39" selection-start-line="200" selection-start-column="39" selection-end-line="200" selection-end-column="39" />
+        <state relative-caret-position="3060">
+          <caret line="219" column="25" selection-start-line="219" selection-start-column="25" selection-end-line="219" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/entity/Prestamo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/entity/PrestamoDetalle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sofia-web/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/entity/EstadoCivil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="9" selection-start-line="9" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/repository/PrestamoDetalleRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

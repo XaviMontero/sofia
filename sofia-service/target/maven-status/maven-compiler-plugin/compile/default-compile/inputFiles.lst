@@ -4,6 +4,7 @@
 /media/xavi/archivos-xavi/xavi/git/sofia/sofia-service/src/main/java/ucacue/edu/ec/service/impl/CiudadServicelmpl.java
 /media/xavi/archivos-xavi/xavi/git/sofia/sofia-service/src/main/java/ucacue/edu/ec/service/impl/ClienteServicelmpl.java
 /media/xavi/archivos-xavi/xavi/git/sofia/sofia-service/src/main/java/ucacue/edu/ec/service/impl/TransaccionServicelmpl.java
+/media/xavi/archivos-xavi/xavi/git/sofia/sofia-service/src/main/java/ucacue/edu/ec/service/impl/PrestamoDetalleServicelmpl.java
 /media/xavi/archivos-xavi/xavi/git/sofia/sofia-service/src/main/java/ucacue/edu/ec/service/impl/PrestamoServicelmpl.java
 /media/xavi/archivos-xavi/xavi/git/sofia/sofia-service/src/main/java/ucacue/edu/ec/service/impl/CuentaServicelmpl.java
 /media/xavi/archivos-xavi/xavi/git/sofia/sofia-service/src/main/java/ucacue/edu/ec/service/impl/PersonaServicelmpl.java

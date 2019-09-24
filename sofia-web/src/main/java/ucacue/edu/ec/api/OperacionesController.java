@@ -41,7 +41,9 @@ public class OperacionesController {
     @Qualifier("trabajoServicelmpl")
     private GenericCRUDService<Trabajador, TrabajadorDTO> serviceTrabajador;
 
-
+    @Autowired
+    @Qualifier("prestamoDetalleServicelmpl")
+    private GenericCRUDService<PrestamoDetalle, PrestamoDetalleDTO> sericesPrestamoDetalle;
     @Autowired
     @Qualifier("garanteServicelmpl")
     private GenericCRUDService<Garante, GaranteDTO> serviceGarante;
@@ -210,6 +212,23 @@ public class OperacionesController {
         return (new ResponseEntity<Object>(serviceCuenta.findAll(), headers, HttpStatus.OK));
 
     }
+
+
+
+
+    @ApiOperation(value = "Devolver Todos los prestamos con detalle")
+    @GetMapping(value = "/prestamo-detalle", produces = MediaType.APPLICATION_JSON_VALUE)
+    public ResponseEntity<Object> getPrestamoDetalle( ){
+
+        HttpHeaders headers = new HttpHeaders();
+        headers.add(HttpHeaders.CONTENT_TYPE, "application/json; charset=UTF-8");
+        return (new ResponseEntity<Object>(sericesPrestamoDetalle.findAll(), headers, HttpStatus.OK));
+
+    }
+
+
+
+
 
     @ApiOperation(value = "Devolver un prestamo  ")
     @GetMapping(value = "{id}/prestamo", produces = MediaType.APPLICATION_JSON_VALUE)

@@ -8,6 +8,7 @@ ucacue/edu/ec/dto/PrestamoDTO.class
 ucacue/edu/ec/dto/GeneroDTO.class
 ucacue/edu/ec/dto/GaranteDTO.class
 ucacue/edu/ec/dto/ClienteDTO.class
+ucacue/edu/ec/dto/PrestamoDetalleDTO.class
 ucacue/edu/ec/dto/TrabajadorDTO.class
 ucacue/edu/ec/dto/CiudadDTO.class
 ucacue/edu/ec/dto/TransacionDTO.class

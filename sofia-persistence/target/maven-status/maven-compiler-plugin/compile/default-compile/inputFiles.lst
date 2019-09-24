@@ -5,6 +5,7 @@
 /media/xavi/archivos-xavi/xavi/git/sofia/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/entity/Trabajador.java
 /media/xavi/archivos-xavi/xavi/git/sofia/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/repository/CiudadRepository.java
 /media/xavi/archivos-xavi/xavi/git/sofia/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/repository/TipoTransaccionRepository.java
+/media/xavi/archivos-xavi/xavi/git/sofia/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/entity/PrestamoDetalle.java
 /media/xavi/archivos-xavi/xavi/git/sofia/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/entity/Ciudad.java
 /media/xavi/archivos-xavi/xavi/git/sofia/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/entity/Cuenta.java
 /media/xavi/archivos-xavi/xavi/git/sofia/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/entity/TipoCuenta.java
@@ -18,6 +19,7 @@
 /media/xavi/archivos-xavi/xavi/git/sofia/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/repository/SucursalRepository.java
 /media/xavi/archivos-xavi/xavi/git/sofia/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/entity/Transacion.java
 /media/xavi/archivos-xavi/xavi/git/sofia/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/entity/Garante.java
+/media/xavi/archivos-xavi/xavi/git/sofia/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/repository/PrestamoDetalleRepository.java
 /media/xavi/archivos-xavi/xavi/git/sofia/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/entity/Persona.java
 /media/xavi/archivos-xavi/xavi/git/sofia/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/repository/TabajadorRepository.java
 /media/xavi/archivos-xavi/xavi/git/sofia/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/entity/Sucursal.java

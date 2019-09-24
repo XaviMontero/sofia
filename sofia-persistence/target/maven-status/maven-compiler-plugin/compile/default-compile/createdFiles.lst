@@ -12,6 +12,7 @@ ucacue/edu/ec/persistence/entity/EstadoCivil.class
 ucacue/edu/ec/persistence/repository/GaranteRepository.class
 ucacue/edu/ec/persistence/repository/EstadoCivilRepository.class
 ucacue/edu/ec/persistence/repository/SucursalRepository.class
+ucacue/edu/ec/persistence/repository/PrestamoDetalleRepository.class
 ucacue/edu/ec/persistence/entity/Trabajador.class
 ucacue/edu/ec/persistence/repository/GeneroRepository.class
 ucacue/edu/ec/persistence/entity/Ciudad.class
@@ -25,5 +26,6 @@ ucacue/edu/ec/persistence/entity/TipoCuenta.class
 ucacue/edu/ec/persistence/repository/BaseTransacionRepository.class
 ucacue/edu/ec/persistence/entity/Sucursal.class
 ucacue/edu/ec/persistence/entity/Cliente.class
+ucacue/edu/ec/persistence/entity/PrestamoDetalle.class
 ucacue/edu/ec/persistence/entity/Prestamo.class
 ucacue/edu/ec/persistence/entity/Garante.class
