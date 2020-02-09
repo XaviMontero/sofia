@@ -34,7 +34,13 @@ public class PrestamoDetalleServicelmpl  extends  GenericCRUDServiceImpl <Presta
         PrestamoDetalleDTO prestamoDetalleDTO = new PrestamoDetalleDTO();
         prestamoDetalleDTO.setPrestamo(prestamoServicelmpl.build(prestamoDetalle.getPrestamo()));
         prestamoDetalleDTO.setFechaAproxPago(DateUtils.convertirGreggorianToDDMMYYYY(prestamoDetalle.getFechaAproxPago().toString()));
-        prestamoDetalleDTO.setFechaPago(DateUtils.convertirGreggorianToDDMMYYYY(prestamoDetalle.getFechaPago().toString()));
+
+        if (prestamoDetalle.getFechaPago() != null ){
+            prestamoDetalleDTO.setFechaPago(DateUtils.convertirGreggorianToDDMMYYYY(prestamoDetalle.getFechaPago().toString()));
+
+        }else {
+            prestamoDetalleDTO.setFechaPago(null);
+        }
         prestamoDetalleDTO.setDetalleNumero(prestamoDetalle.getDetalleNumero());
         prestamoDetalleDTO.setDetalleCapitPagado(prestamoDetalle.getDetalleCapitPagado());
         prestamoDetalleDTO.setDetalleSaldoPemndiente(prestamoDetalle.getDetalleSaldoPemndiente());
