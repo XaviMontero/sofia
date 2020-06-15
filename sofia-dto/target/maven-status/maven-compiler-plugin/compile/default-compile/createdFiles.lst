@@ -11,6 +11,6 @@ ucacue/edu/ec/dto/ClienteDTO.class
 ucacue/edu/ec/dto/PrestamoDetalleDTO.class
 ucacue/edu/ec/dto/TrabajadorDTO.class
 ucacue/edu/ec/dto/CiudadDTO.class
-ucacue/edu/ec/dto/TransacionDTO.class
 ucacue/edu/ec/dto/PersonaDTO.class
+ucacue/edu/ec/dto/TransacionDTO.class
 ucacue/edu/ec/dto/TipoTransacionDTO.class
