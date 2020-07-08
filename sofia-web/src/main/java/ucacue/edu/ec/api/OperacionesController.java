@@ -156,11 +156,7 @@ public class OperacionesController {
         HttpHeaders headers = new HttpHeaders();
         headers.add(HttpHeaders.CONTENT_TYPE, "application/json; charset=UTF-8");
         return (new ResponseEntity<Object>(seviceTransacion.estadoCuenta(id), headers, HttpStatus.OK));
-
     }
-
-
-
     @ApiOperation(value = "Devolver un garante  ")
     @GetMapping(value = "{cedula}/garante", produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<Object> getGarante(

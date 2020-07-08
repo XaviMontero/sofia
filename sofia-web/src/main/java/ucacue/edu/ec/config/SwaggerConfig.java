@@ -19,7 +19,7 @@ public class SwaggerConfig {
 				DocumentationType.SWAGGER_2).groupName("v1").select()
 				.apis(RequestHandlerSelectors.basePackage("ucacue.edu.ec.api"))
 				.paths(PathSelectors.regex("/api/v1.0/.*")).build().apiInfo(new ApiInfoBuilder().version("1.0")
-						.title("Catalina API 1.0").description("Documentation Veronica API v1.0").build());
+						.title("Sofia API 1.0").description("Documentation Sofia API v1.0").build());
 	}
 	
 }
