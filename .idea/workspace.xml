@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,75 +23,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="227cff12-d2b1-44e7-b240-0a00079b8c5c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-common/target/classes/ucacue/edu/ec/common/exception/SofiaException.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-common/target/classes/ucacue/edu/ec/common/exception/SofiaException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-common/target/classes/ucacue/edu/ec/common/util/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-common/target/classes/ucacue/edu/ec/common/util/Constants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-common/target/classes/ucacue/edu/ec/common/util/DateUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-common/target/classes/ucacue/edu/ec/common/util/DateUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-dto/target/classes/ucacue/edu/ec/dto/CiudadDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-dto/target/classes/ucacue/edu/ec/dto/CiudadDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-dto/target/classes/ucacue/edu/ec/dto/ClienteDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-dto/target/classes/ucacue/edu/ec/dto/ClienteDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-dto/target/classes/ucacue/edu/ec/dto/CuentaDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-dto/target/classes/ucacue/edu/ec/dto/CuentaDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-dto/target/classes/ucacue/edu/ec/dto/EstadoCivilDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-dto/target/classes/ucacue/edu/ec/dto/EstadoCivilDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-dto/target/classes/ucacue/edu/ec/dto/EstadoCuentaDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-dto/target/classes/ucacue/edu/ec/dto/EstadoCuentaDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-dto/target/classes/ucacue/edu/ec/dto/GaranteDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-dto/target/classes/ucacue/edu/ec/dto/GaranteDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-dto/target/classes/ucacue/edu/ec/dto/GeneroDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-dto/target/classes/ucacue/edu/ec/dto/GeneroDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-dto/target/classes/ucacue/edu/ec/dto/PersonaDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-dto/target/classes/ucacue/edu/ec/dto/PersonaDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-dto/target/classes/ucacue/edu/ec/dto/PrestamoDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-dto/target/classes/ucacue/edu/ec/dto/PrestamoDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-dto/target/classes/ucacue/edu/ec/dto/PrestamoDetalleDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-dto/target/classes/ucacue/edu/ec/dto/PrestamoDetalleDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-dto/target/classes/ucacue/edu/ec/dto/SofiaResponseDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-dto/target/classes/ucacue/edu/ec/dto/SofiaResponseDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-dto/target/classes/ucacue/edu/ec/dto/SucursalDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-dto/target/classes/ucacue/edu/ec/dto/SucursalDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-dto/target/classes/ucacue/edu/ec/dto/TipoCuentaDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-dto/target/classes/ucacue/edu/ec/dto/TipoCuentaDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-dto/target/classes/ucacue/edu/ec/dto/TipoTransacionDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-dto/target/classes/ucacue/edu/ec/dto/TipoTransacionDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-dto/target/classes/ucacue/edu/ec/dto/TrabajadorDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-dto/target/classes/ucacue/edu/ec/dto/TrabajadorDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-dto/target/classes/ucacue/edu/ec/dto/TransacionDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-dto/target/classes/ucacue/edu/ec/dto/TransacionDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/entity/Ciudad.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/entity/Ciudad.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/entity/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/entity/Cliente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/entity/Cuenta.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/entity/Cuenta.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/entity/EstadoCivil.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/entity/EstadoCivil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/entity/Garante.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/entity/Garante.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/entity/Genero.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/entity/Genero.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/entity/Persona.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/entity/Persona.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/entity/Prestamo.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/entity/Prestamo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/entity/PrestamoDetalle.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/entity/PrestamoDetalle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/entity/Sucursal.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/entity/Sucursal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/entity/TipoCuenta.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/entity/TipoCuenta.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/entity/TipoTransacion.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/entity/TipoTransacion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/entity/Trabajador.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/entity/Trabajador.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/entity/Transacion.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/entity/Transacion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/repository/CiudadRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/repository/CiudadRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/repository/CuentaRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/repository/CuentaRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/repository/EstadoCivilRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/repository/EstadoCivilRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/repository/GeneroRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/repository/GeneroRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/repository/PersonaRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/repository/PersonaRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/repository/PrestamoDetalleRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/repository/PrestamoDetalleRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/repository/SucursalRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/repository/SucursalRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/repository/TipoCuentaRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/repository/TipoCuentaRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/repository/TipoTransaccionRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/repository/TipoTransaccionRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sofia-common/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-common/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sofia-common/.factorypath" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-common/.factorypath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sofia-common/.project" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-common/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sofia-dto/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-dto/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sofia-dto/.project" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-dto/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sofia-persistence/.project" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-persistence/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/repository/TransacionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-persistence/src/main/java/ucacue/edu/ec/persistence/repository/TransacionRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/repository/TransacionRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-persistence/target/classes/ucacue/edu/ec/persistence/repository/TransacionRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-service/target/classes/ucacue/edu/ec/service/impl/CiudadServicelmpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-service/target/classes/ucacue/edu/ec/service/impl/CiudadServicelmpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-service/target/classes/ucacue/edu/ec/service/impl/ClienteServicelmpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-service/target/classes/ucacue/edu/ec/service/impl/ClienteServicelmpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-service/target/classes/ucacue/edu/ec/service/impl/CuentaServicelmpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-service/target/classes/ucacue/edu/ec/service/impl/CuentaServicelmpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-service/target/classes/ucacue/edu/ec/service/impl/EstadoCivilServicelmpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-service/target/classes/ucacue/edu/ec/service/impl/EstadoCivilServicelmpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-service/target/classes/ucacue/edu/ec/service/impl/GaranteServicelmpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-service/target/classes/ucacue/edu/ec/service/impl/GaranteServicelmpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-service/target/classes/ucacue/edu/ec/service/impl/GenericCRUDServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-service/target/classes/ucacue/edu/ec/service/impl/GenericCRUDServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-service/target/classes/ucacue/edu/ec/service/impl/GeneroServicelmpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-service/target/classes/ucacue/edu/ec/service/impl/GeneroServicelmpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-service/target/classes/ucacue/edu/ec/service/impl/PersonaServicelmpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-service/target/classes/ucacue/edu/ec/service/impl/PersonaServicelmpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-service/target/classes/ucacue/edu/ec/service/impl/PrestamoDetalleServicelmpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-service/target/classes/ucacue/edu/ec/service/impl/PrestamoDetalleServicelmpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-service/target/classes/ucacue/edu/ec/service/impl/PrestamoServicelmpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-service/target/classes/ucacue/edu/ec/service/impl/PrestamoServicelmpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-service/target/classes/ucacue/edu/ec/service/impl/SucursalServicelmpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-service/target/classes/ucacue/edu/ec/service/impl/SucursalServicelmpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-service/target/classes/ucacue/edu/ec/service/impl/TipoCuentaServicelmpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-service/target/classes/ucacue/edu/ec/service/impl/TipoCuentaServicelmpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-service/target/classes/ucacue/edu/ec/service/impl/TipoTransaccionServicelmpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-service/target/classes/ucacue/edu/ec/service/impl/TipoTransaccionServicelmpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-service/target/classes/ucacue/edu/ec/service/impl/TrabajoServicelmpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-service/target/classes/ucacue/edu/ec/service/impl/TrabajoServicelmpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-service/target/classes/ucacue/edu/ec/service/impl/TransaccionServicelmpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-service/target/classes/ucacue/edu/ec/service/impl/TransaccionServicelmpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-web/src/main/java/ucacue/edu/ec/api/OperacionesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-web/src/main/java/ucacue/edu/ec/api/OperacionesController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-web/src/main/java/ucacue/edu/ec/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-web/src/main/java/ucacue/edu/ec/config/SwaggerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-web/target/classes/ucacue/edu/ec/SofiaApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-web/target/classes/ucacue/edu/ec/SofiaApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofia-web/target/classes/ucacue/edu/ec/api/OperacionesController.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-web/target/classes/ucacue/edu/ec/api/OperacionesController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sofia-persistence/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sofia-persistence/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sofia-persistence/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sofia-persistence/target/sofia-persistence-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sofia-service/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-service/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sofia-service/.factorypath" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-service/.factorypath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sofia-service/.project" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-service/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sofia-web/.factorypath" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-web/.factorypath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sofia-web/.project" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-web/.project" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sofia-web/target/classes/ucacue/edu/ec/config/SwaggerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-web/target/classes/ucacue/edu/ec/config/SwaggerConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sofia-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/sofia-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,6 +83,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
@@ -149,7 +112,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../codely/ddd-java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -193,6 +156,19 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.SofiaApplication (1)">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SofiaApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="sofia-web" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ucacue.edu.ec.SofiaApplication" />
@@ -208,6 +184,7 @@
       </method>
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -280,6 +257,14 @@
       <workItem from="1592929913032" duration="653000" />
       <workItem from="1593642840194" duration="15000" />
       <workItem from="1593929596787" duration="784000" />
+      <workItem from="1595886245616" duration="1324000" />
+      <workItem from="1596989650360" duration="362000" />
+      <workItem from="1596990058001" duration="2275000" />
+      <workItem from="1598470031549" duration="76000" />
+      <workItem from="1600890362511" duration="927000" />
+      <workItem from="1600891312303" duration="969000" />
+      <workItem from="1600892310305" duration="2852000" />
+      <workItem from="1600902299737" duration="505000" />
     </task>
     <servers />
   </component>
@@ -293,7 +278,7 @@
     </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -330,51 +315,64 @@
       <screen x="0" y="27" width="1920" height="991" />
     </state>
     <state x="418" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1080/0.27.1920.991@0.27.1920.991" timestamp="1592531679586" />
-    <state x="2109" y="295" width="424" height="491" key="FileChooserDialogImpl" timestamp="1593930377018">
-      <screen x="1366" y="0" width="1920" height="1080" />
+    <state x="643" y="277" width="624" height="533" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1596989664084">
+      <screen x="0" y="27" width="1920" height="991" />
+    </state>
+    <state x="643" y="277" width="624" height="533" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/1920.0.1920.1080/0.27.1920.991@0.27.1920.991" timestamp="1596989664084" />
+    <state x="743" y="298" width="424" height="491" key="FileChooserDialogImpl" timestamp="1600901390413">
+      <screen x="0" y="27" width="1920" height="991" />
     </state>
     <state x="2109" y="295" key="FileChooserDialogImpl/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1593930377018" />
-    <state x="743" y="298" width="424" height="491" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.991@0.27.1920.991" timestamp="1592959784161" />
-    <state width="1291" height="320" key="GridCell.Tab.0.bottom" timestamp="1593930381278">
-      <screen x="1366" y="0" width="1920" height="1080" />
+    <state x="743" y="298" width="424" height="491" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.991@0.27.1920.991" timestamp="1600901390413" />
+    <state x="2663" y="295" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.991@1920.0.1920.1080" timestamp="1600890674633" />
+    <state width="1655" height="356" key="GridCell.Tab.0.bottom" timestamp="1597077426586">
+      <screen x="0" y="27" width="1920" height="991" />
     </state>
+    <state width="1655" height="320" key="GridCell.Tab.0.bottom/0.27.1920.991@0.27.1920.991" timestamp="1595975870690" />
     <state width="1291" height="320" key="GridCell.Tab.0.bottom/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1593930381278" />
-    <state width="635" height="363" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.991@0.27.1920.991" timestamp="1592532006275" />
-    <state width="1291" height="320" key="GridCell.Tab.0.center" timestamp="1593930381278">
-      <screen x="1366" y="0" width="1920" height="1080" />
+    <state width="1655" height="356" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.991@0.27.1920.991" timestamp="1597077426586" />
+    <state width="1655" height="356" key="GridCell.Tab.0.center" timestamp="1597077426586">
+      <screen x="0" y="27" width="1920" height="991" />
     </state>
+    <state width="1655" height="320" key="GridCell.Tab.0.center/0.27.1920.991@0.27.1920.991" timestamp="1595975870689" />
     <state width="1291" height="320" key="GridCell.Tab.0.center/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1593930381278" />
-    <state width="635" height="363" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.991@0.27.1920.991" timestamp="1592532006275" />
-    <state width="1291" height="320" key="GridCell.Tab.0.left" timestamp="1593930381278">
-      <screen x="1366" y="0" width="1920" height="1080" />
+    <state width="1655" height="356" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.991@0.27.1920.991" timestamp="1597077426586" />
+    <state width="1655" height="356" key="GridCell.Tab.0.left" timestamp="1597077426586">
+      <screen x="0" y="27" width="1920" height="991" />
     </state>
+    <state width="1655" height="320" key="GridCell.Tab.0.left/0.27.1920.991@0.27.1920.991" timestamp="1595975870689" />
     <state width="1291" height="320" key="GridCell.Tab.0.left/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1593930381278" />
-    <state width="635" height="363" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.991@0.27.1920.991" timestamp="1592532006275" />
-    <state width="1291" height="320" key="GridCell.Tab.0.right" timestamp="1593930381278">
-      <screen x="1366" y="0" width="1920" height="1080" />
+    <state width="1655" height="356" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.991@0.27.1920.991" timestamp="1597077426586" />
+    <state width="1655" height="356" key="GridCell.Tab.0.right" timestamp="1597077426586">
+      <screen x="0" y="27" width="1920" height="991" />
     </state>
+    <state width="1655" height="320" key="GridCell.Tab.0.right/0.27.1920.991@0.27.1920.991" timestamp="1595975870689" />
     <state width="1291" height="320" key="GridCell.Tab.0.right/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1593930381278" />
-    <state width="635" height="363" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.991@0.27.1920.991" timestamp="1592532006275" />
-    <state width="1291" height="320" key="GridCell.Tab.1.bottom" timestamp="1593930381278">
-      <screen x="1366" y="0" width="1920" height="1080" />
+    <state width="1655" height="356" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.991@0.27.1920.991" timestamp="1597077426586" />
+    <state width="1655" height="356" key="GridCell.Tab.1.bottom" timestamp="1597077426586">
+      <screen x="0" y="27" width="1920" height="991" />
     </state>
+    <state width="1655" height="320" key="GridCell.Tab.1.bottom/0.27.1920.991@0.27.1920.991" timestamp="1595975870695" />
     <state width="1291" height="320" key="GridCell.Tab.1.bottom/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1593930381278" />
-    <state width="635" height="363" key="GridCell.Tab.1.bottom/1920.0.1920.1080/0.27.1920.991@0.27.1920.991" timestamp="1592532006276" />
-    <state width="1291" height="320" key="GridCell.Tab.1.center" timestamp="1593930381278">
-      <screen x="1366" y="0" width="1920" height="1080" />
+    <state width="1655" height="356" key="GridCell.Tab.1.bottom/1920.0.1920.1080/0.27.1920.991@0.27.1920.991" timestamp="1597077426586" />
+    <state width="1655" height="356" key="GridCell.Tab.1.center" timestamp="1597077426586">
+      <screen x="0" y="27" width="1920" height="991" />
     </state>
+    <state width="1655" height="320" key="GridCell.Tab.1.center/0.27.1920.991@0.27.1920.991" timestamp="1595975870690" />
     <state width="1291" height="320" key="GridCell.Tab.1.center/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1593930381278" />
-    <state width="635" height="363" key="GridCell.Tab.1.center/1920.0.1920.1080/0.27.1920.991@0.27.1920.991" timestamp="1592532006276" />
-    <state width="1291" height="320" key="GridCell.Tab.1.left" timestamp="1593930381278">
-      <screen x="1366" y="0" width="1920" height="1080" />
+    <state width="1655" height="356" key="GridCell.Tab.1.center/1920.0.1920.1080/0.27.1920.991@0.27.1920.991" timestamp="1597077426586" />
+    <state width="1655" height="356" key="GridCell.Tab.1.left" timestamp="1597077426586">
+      <screen x="0" y="27" width="1920" height="991" />
     </state>
+    <state width="1655" height="320" key="GridCell.Tab.1.left/0.27.1920.991@0.27.1920.991" timestamp="1595975870690" />
     <state width="1291" height="320" key="GridCell.Tab.1.left/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1593930381278" />
-    <state width="635" height="363" key="GridCell.Tab.1.left/1920.0.1920.1080/0.27.1920.991@0.27.1920.991" timestamp="1592532006275" />
-    <state width="1291" height="320" key="GridCell.Tab.1.right" timestamp="1593930381278">
-      <screen x="1366" y="0" width="1920" height="1080" />
+    <state width="1655" height="356" key="GridCell.Tab.1.left/1920.0.1920.1080/0.27.1920.991@0.27.1920.991" timestamp="1597077426586" />
+    <state width="1655" height="356" key="GridCell.Tab.1.right" timestamp="1597077426586">
+      <screen x="0" y="27" width="1920" height="991" />
     </state>
+    <state width="1655" height="320" key="GridCell.Tab.1.right/0.27.1920.991@0.27.1920.991" timestamp="1595975870691" />
     <state width="1291" height="320" key="GridCell.Tab.1.right/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1593930381278" />
-    <state width="635" height="363" key="GridCell.Tab.1.right/1920.0.1920.1080/0.27.1920.991@0.27.1920.991" timestamp="1592532006276" />
+    <state width="1655" height="356" key="GridCell.Tab.1.right/1920.0.1920.1080/0.27.1920.991@0.27.1920.991" timestamp="1597077426586" />
     <state width="1291" height="326" key="GridCell.Tab.2.bottom" timestamp="1593930381272">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
@@ -395,6 +393,14 @@
       <screen x="0" y="27" width="1920" height="991" />
     </state>
     <state x="449" y="175" width="1022" height="737" key="SettingsEditor/1920.0.1920.1080/0.27.1920.991@0.27.1920.991" timestamp="1592779689381" />
+    <state x="651" y="279" width="627" height="522" key="find.popup" timestamp="1597077257910">
+      <screen x="0" y="27" width="1920" height="991" />
+    </state>
+    <state x="651" y="279" width="627" height="522" key="find.popup/1920.0.1920.1080/0.27.1920.991@0.27.1920.991" timestamp="1597077257910" />
+    <state x="2474" y="226" width="802" height="599" key="new project wizard" timestamp="1600890677366">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2474" y="226" width="802" height="599" key="new project wizard/1920.0.1920.1080/0.27.1920.991@1920.0.1920.1080" timestamp="1600890677366" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

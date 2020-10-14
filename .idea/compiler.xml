@@ -7,11 +7,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="sofia-service" />
-        <module name="sofia-common" />
-        <module name="sofia-web" />
         <module name="sofia-dto" />
+        <module name="sofia-common" />
         <module name="sofia-persistence" />
+        <module name="sofia-web" />
+        <module name="sofia-service" />
       </profile>
     </annotationProcessing>
   </component>

@@ -21,6 +21,6 @@ public interface TransacionRepository  extends  BaseTransacionRepository <Transa
     Transacion getOneByCuentaId(long id);
 
     @Override
-    @Query(value = "SELECT  T.fecha, C.descripcion ,T.monto,(SELECT SUM(S.monto) FROM transacion S  WHERE S.id_transacion<=T.id_transacion and S.id_cuenta=?1 ) As total FROM public.transacion T INNER JOIN public.tipo_transacion C on C.id_tipo_transacion = T.id_tipo_transacion WHERE T.id_cuenta=?1 ORDER BY  T.fecha , T.id_transacion ;",nativeQuery = true)
+    @Query(value = "SELECT  T.fecha, C.descripcion ,T.monto,(SELECT SUM(S.monto) FROM transacion S  WHERE S.id_transacion<=T.id_transacion and S.id_cuenta=?1 ) As total FROM public.transacion T INNER JOIN public.tipo_transacion C on C.id_tipo_transacion = T.id_tipo_transacion WHERE T.id_cuenta=?1 ORDER BY  T.fecha DESC ;",nativeQuery = true)
     List<Object[]> estadoCuenta(long id);
 }
